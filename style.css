@@ -1,0 +1,145 @@
+.brand-image{
+  position: relative;
+  display: block;
+}
+.list li, svg , .brand-image{
+  float: left;
+  width: 90px;
+  display: block;
+}
+.brand-image{
+  position: absolute;
+  top: 30px;
+  margin-left: 100px;
+}
+.brand-image img {
+  width: 120px;
+}
+.list li{
+  position: relative;
+  left: 300px;
+  font-family: Orbitron;
+  font-size: 20px;
+  font-weight: 200;
+  cursor: pointer;
+}
+.list-item :hover ::after{
+  text-decoration: underline;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  
+}
+.nav-button{
+  position: relative;
+  left: 450px;
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  top: 20px;
+  background-color: #ffffff;
+  font-family: "Poppins";
+  font-weight: lighter;
+  border-radius: 7px;
+  border: 2px solid #000000;
+}
+.search-icon{
+  position: relative;
+  left: 470px;
+  top: 20px;
+}
+.list-item{
+  left: 200px;
+  margin: 22px;
+  font-size: 25px;
+}
+.square{
+  position: relative;
+  right: 540px;
+  top: 365px;
+  
+}
+.star{
+  position: relative;
+  bottom: 130px;
+  left: 250px;
+}
+.star img{
+  width: 40px;
+}
+.hero{
+  position: relative;
+  top: -185px;
+  left: 100px
+}
+.globe{
+  position: relative;
+  bottom: 170px;
+  right: 459px;
+}
+.globe img{
+  width: 60px;
+}
+.hero-container-right{
+  margin-left: 700px;
+  position: relative;
+  bottom: 650px;
+  right: 50px;
+}
+.hero-heading{
+  font-family: Orbitron;
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: 5px;
+  
+}
+body{
+  overflow: hidden;
+}
+.hero img{
+  width: 400px;
+}
+.square img{
+  width: 300px;
+}
+.hero-description{
+  font-family: "Poppins";
+  margin: 65px;
+  text-align: center;
+  font-weight: lighter;
+}
+.button-email{
+  width: 200px;
+  position: relative; 
+  left: 200px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  
+}
+.button-join{
+  position: relative;
+  left: 210px;
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 5px;
+}
+.footer{
+  position: relative;
+  left: 250px;
+  top: 100px;
+}
+.contact-heading {
+  font-family: "Poppins";
+  font-weight: 400;
+  margin-left: 80px;
+}
+.icons span{
+  margin-left: 15px;
+  
+}
